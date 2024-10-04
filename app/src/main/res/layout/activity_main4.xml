@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:padding="16dp"
+    android:background="@drawable/a">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Login Page using Intent"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+
+<EditText
+    android:id="@+id/user"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Enter your number,email,url"
+    android:textColorHint="@color/black"
+    android:textAlignment="center"
+    android:inputType="none"
+    android:maxLength="30"
+    android:layout_marginTop="50dp"
+    />
+    <Button
+    android:id="@+id/call"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Phone Call"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:layout_marginTop="150dp"
+
+    />
+<Button
+    android:id="@+id/web"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Web Browser"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:layout_below="@id/call"
+    android:layout_marginTop="10dp"
+    />
+<Button
+    android:id="@+id/Map"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Google Map"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:layout_below="@id/web"
+    android:layout_marginTop="10dp"
+    />
+<Button
+    android:id="@+id/sms"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SMS"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:layout_below="@id/Map"
+    android:layout_marginTop="10dp"
+    />
+
+    <Button
+    android:id="@+id/email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Email"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:layout_below="@id/sms"
+        android:layout_marginTop="10dp"
+
+        />
+    <!-- Email subject input -->
+
+    <!-- Email message input -->
+
+
+    <Button
+    android:id="@+id/Share"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Share to"
+    android:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:layout_below="@id/email"
+    android:layout_marginTop="10dp"
+
+    />
+    <Button
+       android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACT TO MAD_PROJECTS"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_below="@id/Share"/>
+
+</RelativeLayout>

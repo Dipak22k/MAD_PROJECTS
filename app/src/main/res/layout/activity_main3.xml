@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:padding="16dp"
+    android:background="@drawable/ss">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Student Database without SQLite"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Enter Name"
+        android:textColorHint="@color/black"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextRollNumber"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Enter Roll Number"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextGrade"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:hint="Enter Grade"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/editTextRollNumber"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:layout_below="@id/editTextGrade"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+    <ListView
+        android:id="@+id/listViewStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/navy_blue"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/BacktoLogin"
+        android:text="BACK TO MAD_PROJECTS !"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewStudents"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        />
+
+
+
+
+</RelativeLayout>

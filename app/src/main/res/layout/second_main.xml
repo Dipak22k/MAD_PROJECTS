@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logii"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text=" MAD_PROJECTS !"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/medium_skin"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/studentDb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Database"
+        android:layout_below="@id/converter"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/medium_skin"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/internalIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Internal Intent"
+        android:layout_below="@id/studentDb"
+        android:backgroundTint="@color/medium_skin"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+
+        />
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="simple calculator"
+        android:layout_below="@id/internalIntent"
+        android:backgroundTint="@color/medium_skin"
+        android:textColor="@color/black"
+
+        />
+    <Button
+        android:id="@+id/intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Intent four apps"
+        android:layout_below="@id/calculator"
+        android:backgroundTint="@color/medium_skin"
+        android:textColor="@color/black"
+
+        />
+    <Button
+        android:id="@+id/usingSQL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login using SQL"
+        android:layout_below="@id/intent"
+        android:backgroundTint="@color/medium_skin"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/medium_skin"
+        android:text="BACK TO FIRST"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>

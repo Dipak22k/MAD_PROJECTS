@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/act"
+    tools:context=".MainActivity2"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. CONVERTER APP"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter grams"
+        android:layout_marginTop="65dp"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/cel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_marginTop="30dp"
+        android:text="celsius To Fahrenheit"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/met"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cel"
+        android:layout_marginTop="10dp"
+        android:text="Meter to Kilometer"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        /> <Button
+        android:id="@+id/gra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/met"
+        android:layout_marginTop="10dp"
+        android:text="Gram to Kilogram"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/dol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gra"
+        android:text="INDIAN TO US DOLLAR"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/nep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dol"
+        android:layout_marginTop="10dp"
+        android:text="INDIAN TO NEPAL"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/viet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nep"
+        android:layout_marginTop="10dp"
+        android:text="INDIAN TO VIETNAM"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/eur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viet"
+        android:layout_marginTop="10dp"
+        android:text="INDAIN TO EURO"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eur"
+        android:layout_marginTop="10dp"
+        android:text="BACK TO LOGIN PAGE"
+        android:backgroundTint="@color/navy_blue"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back"
+        android:hint="Result"
+        android:textSize="24dp"
+        android:layout_marginTop="10dp"
+       android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>
